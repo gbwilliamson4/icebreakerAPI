@@ -1,0 +1,1 @@
+web: python manage.py migrate && gunicorn IceBreakerProj.wsgi --timeout 500
